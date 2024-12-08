@@ -10,7 +10,7 @@ def main():
     print("El juego está empezando...")
     serpiente = ["Cuerpo"]  # La serpiente empieza con un cuerpo
     comida = True           # Hay comida disponible en el juego
-    jugando = True          # El juego está activo
+    jugando = True          # El juego se encuentra activo
     
     while jugando:
         # 4. Mover la serpiente
@@ -34,7 +34,7 @@ def main():
             comida = True  # Reaparece la comida para la próxima iteración
 
     # 8. Fin del Juego
-    print(f"¡Juego terminado, {nombre}! La serpiente tenía {len(serpiente)} segmentos.")
+    print(f"¡Juego terminado, {nombre}! La serpiente tuvo {len(serpiente)} segmentos.")
 
 # Ejecutar el programa principal
 if __name__ == "__main__":
